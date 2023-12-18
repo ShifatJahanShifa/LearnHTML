@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form action="/action.php">
+
+        <!-- credentials-->
+        <input type="text" placeholder="enter username">
+        <br><br>
+        <input type="password" placeholder="enter password">
+        <br>
+
+        <!-- class selection-->
+        <h4>select your class</h4>
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+        </label> 
+        <br>
+
+        <!-- subject selection -->
+        <h4>select your favorite subject</h4>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="math">math
+        </label>
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="physics">physics
+        </label>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="chemistry">chemistry
+        </label>
+        <label for="computer science">
+            <input type="checkbox" value="computer science" name="subject" id="computer science">computer science
+        </label>
+        <br><br>
+
+        <!-- division selection -->
+        select your division
+        <select name="division">
+            <option value="dhaka">dhaka</option>
+            <option value="rajshahi">rajshahi</option>
+            <option value="sylhet">sylhet</option>
+        </select>
+        <br><br>
+
+        <!-- feedback part-->
+        <textarea name="feedback" id="101" placeholder="provide your feedback" rows="4"></textarea>
+        <br><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
